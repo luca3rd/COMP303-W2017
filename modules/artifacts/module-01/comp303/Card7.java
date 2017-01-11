@@ -67,6 +67,7 @@ public class Card7
 	 */
 	public void setRank(Rank pRank)
 	{
+		assert pRank != null;
 		aRank = pRank;
 	}
 	
@@ -77,6 +78,7 @@ public class Card7
 	 */
 	public void setSuit(Suit pSuit)
 	{
+		assert pSuit != null;
 		aSuit = pSuit;
 	}
 	
